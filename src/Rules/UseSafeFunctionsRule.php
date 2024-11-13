@@ -17,7 +17,7 @@ use PhpParser\Node\Scalar;
 /**
  * This rule checks that no "unsafe" functions are used in code.
  *
- * @implements Rule<Node\Expr\FuncCall>
+ * @implements Rule\<Node\Expr\FuncCall>
  */
 class UseSafeFunctionsRule implements Rule
 {
